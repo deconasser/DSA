@@ -1,3 +1,5 @@
+BẢN NÀY COPPY TỪ BẢN WORD ĐỂ XEM CHO TIỆN NHƯNG LẠI LỖI VỀ SỐ MŨ Ở BÀI 1.
+
 HOMEWORK LECTURE
 Complexity analyses
 1.	Sort the following functions in the ascending order of Big O notation:
