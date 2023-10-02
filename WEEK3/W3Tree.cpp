@@ -153,158 +153,158 @@ int main()
     } 
 	return 0;
 }
-//Câu 2 :
-    //Draw the binary tree
-    //     2
-    //    / \
-    //   1   10
-    //      /  \
-    //     6   13
-    //    / \    \
-    //   3   8    20
-    //      /
-    //     7
-	// Draw the binary search tree after inserting values : 14, 0 , 35.
-    //     2
-    //    / \
-    //   1   10
-    //  /   /  \
-    // 0   6    13
-    //    / \     \
-    //   3   8     20
-    //      /     /  \
-    //     7     14   35
-    //              
-    //              
+Câu 2 :
+    Draw the binary tree
+        2
+       / \
+      1   10
+         /  \
+        6   13
+       / \    \
+      3   8    20
+         /
+        7
+	Draw the binary search tree after inserting values : 14, 0 , 35.
+        2
+       / \
+      1   10
+     /   /  \
+    0   6    13
+       / \     \
+      3   8     20
+         /     /  \
+        7     14   35
+                 
+                 
 
-	//Draw the binary tree after deleting 6, 13, 35
-    //     2
-    //    / \
-    //   1   10
-    //  /   /  \
-    // 0   7    20
-    //    / \    /
-    //   3   8	14
-    //      
-    //     
-// Câu 3: 2 1 10 6 3 8 7 13 20
-// -Draw the heap tree
-// 				20
-// 			  /   \ 
-// 			 13    10
-// 			/ \   / \
-// 		   6   3  8  7
-// 		  / \
-// 		  1  2
-// -Draw the heap tree after inserting values : 14
-// 				20
-// 			  /   \ 
-// 			 14    10
-// 			/ \   / \
-// 		   6   13  8  7
-// 		  / \  /
-// 		  1  2 3 
-// -Draw the heap tree after inserting values : 0
-// 				20
-// 			  /   \ 
-// 			 14    10
-// 			/ \   / \
-// 		   6   13  8  7
-// 		  / \  / \
-// 		  1  2 3  0
-// -Draw the heap tree after inserting values : 35
-// 				35
-// 			  /    \ 
-// 			 14     20
-// 			/ \     /  \
-// 		   6   13   10   7
-// 		  / \  / \  /
-// 		  1  2 3  0 8
+	Draw the binary tree after deleting 6, 13, 35
+        2
+       / \
+      1   10
+     /   /  \
+    0   7    20
+       / \    /
+      3   8	14
+         
+        
+Câu 3: 2 1 10 6 3 8 7 13 20
+-Draw the heap tree
+				20
+			  /   \ 
+			 13    10
+			/ \   / \
+		   6   3  8  7
+		  / \
+		  1  2
+-Draw the heap tree after inserting values : 14
+				20
+			  /   \ 
+			 14    10
+			/ \   / \
+		   6   13  8  7
+		  / \  /
+		  1  2 3 
+-Draw the heap tree after inserting values : 0
+				20
+			  /   \ 
+			 14    10
+			/ \   / \
+		   6   13  8  7
+		  / \  / \
+		  1  2 3  0
+-Draw the heap tree after inserting values : 35
+				35
+			  /    \ 
+			 14     20
+			/ \     /  \
+		   6   13   10   7
+		  / \  / \  /
+		  1  2 3  0 8
 
-// -Draw the heap tree after deleting : 6 
-// 				35
-// 			  /    \ 
-// 			 14     20
-// 			/ \     /  \
-// 		   8   13   10   7
-// 		  / \  / \  
-// 		  1  2 3  0 
-// -Draw the heap tree after deleting : 13
-// 				35
-// 			  /    \ 
-// 			 14     20
-// 			/ \     /  \
-// 		   8   3   10   7
-// 		  / \  /   
-// 		  1  2 0   
-// -Draw the heap tree after deleting : 35
-// 				 20
-// 			  /    \ 
-// 			 14      10
-// 			/ \     /  \
-// 		   8   3   0   7
-// 		  / \     
-// 		  1  2    
-// Câu 4:
-// Sau khi sử dụng web random.org thu được S1: 13 7 14 17 3 2 18 6 10 15
-// Insert elements from S1 to a binary search tree one by one and draw the binary search
-// tree after each step.
+-Draw the heap tree after deleting : 6 
+				35
+			  /    \ 
+			 14     20
+			/ \     /  \
+		   8   13   10   7
+		  / \  / \  
+		  1  2 3  0 
+-Draw the heap tree after deleting : 13
+				35
+			  /    \ 
+			 14     20
+			/ \     /  \
+		   8   3   10   7
+		  / \  /   
+		  1  2 0   
+-Draw the heap tree after deleting : 35
+				 20
+			  /    \ 
+			 14      10
+			/ \     /  \
+		   8   3   0   7
+		  / \     
+		  1  2    
+Câu 4:
+Sau khi sử dụng web random.org thu được S1: 13 7 14 17 3 2 18 6 10 15
+Insert elements from S1 to a binary search tree one by one and draw the binary search
+tree after each step.
 
-// 					13
-// 				  /    \
-// 				7       14
-// 			  /  \         \
-//              3    10       17
-//             / \			/    \
-//            2   6		   15     18
+					13
+				  /    \
+				7       14
+			  /  \         \
+             3    10       17
+            / \			/    \
+           2   6		   15     18
 
-// Write out the procedure to find and remove the maximum element from binary search
-// tree in detail.
+Write out the procedure to find and remove the maximum element from binary search
+tree in detail.
 
-// Để tìm ra phần tử có giá trị lớn nhất : 
-// -> Nếu ở nốt con bên phải so với nốt gốc thì sẽ đi lên nốt cha gần nhất rồi đi xâu xuống nhánh bên phải cùng
-// -> Nếu ở nốt con bên trái so với nốt gốc thì sẽ đi lên nốt gốc rồi đi sâu xuống nhánh bên phải cùng
-// Để xóa bỏ phần tử có giá trị lớn nhất :
-// Cho nốt cha của nó Node->right = nullptr;
+Để tìm ra phần tử có giá trị lớn nhất : 
+-> Nếu ở nốt con bên phải so với nốt gốc thì sẽ đi lên nốt cha gần nhất rồi đi xâu xuống nhánh bên phải cùng
+-> Nếu ở nốt con bên trái so với nốt gốc thì sẽ đi lên nốt gốc rồi đi sâu xuống nhánh bên phải cùng
+Để xóa bỏ phần tử có giá trị lớn nhất :
+Cho nốt cha của nó Node->right = nullptr;
 
-// Write out the procedure to find and remove the minimum element from binary search tree
-// in detail.
+Write out the procedure to find and remove the minimum element from binary search tree
+in detail.
 
-// Để tìm ra phần tử có giá trị nhỏ nhất : 
-// -> Nếu ở nốt con bên phải so với nốt gốc thì sẽ đi lên nốt gốc rồi đi xâu xuống nhánh bên trái cùng
-// -> Nếu ở nốt con bên trái so với nốt gốc thì sẽ đi lên nốt cha gần nhất rồi đi sâu xuống nhánh bên trái cùng
-// Để xóa bỏ phần tử có giá trị lớn nhất :
-// Cho nốt cha của nó Node->left = nullptr;
+Để tìm ra phần tử có giá trị nhỏ nhất : 
+-> Nếu ở nốt con bên phải so với nốt gốc thì sẽ đi lên nốt gốc rồi đi xâu xuống nhánh bên trái cùng
+-> Nếu ở nốt con bên trái so với nốt gốc thì sẽ đi lên nốt cha gần nhất rồi đi sâu xuống nhánh bên trái cùng
+Để xóa bỏ phần tử có giá trị lớn nhất :
+Cho nốt cha của nó Node->left = nullptr;
 
-// Câu 5:
-// Use random.org to generate another set of 10 integers from 1-20 (S2).
-// - Draw the heap (tree) from S2
+Câu 5:
+Use random.org to generate another set of 10 integers from 1-20 (S2).
+- Draw the heap (tree) from S2
 
-// S2: 18 5 15 2 12 7 9 16 4 11
-// S1: 13 7 14 17 3 2 18 6 10 15 (Câu 4)
-//            18
-//          /    \
-//         16     15
-//        / \     / \
-//       12   11 7   9
-//      /  \  /
-//     2    4 5
+S2: 18 5 15 2 12 7 9 16 4 11
+S1: 13 7 14 17 3 2 18 6 10 15 (Câu 4)
+           18
+         /    \
+        16     15
+       / \     / \
+      12   11 7   9
+     /  \  /
+    2    4 5
 
-// - Insert elements from S1 to this heap one by one and draw the heap after each step.
-//              18
-//          /        \
-//         18         17
-//        /   \        / \
-//       16     13     14   15
-//      /  \    / \   / \   / \
-//     12   15  5  11 7  7  9  3
-//    / \   / \
-//   2   6  4  10
+- Insert elements from S1 to this heap one by one and draw the heap after each step.
+             18
+         /        \
+        18         17
+       /   \        / \
+      16     13     14   15
+     /  \    / \   / \   / \
+    12   15  5  11 7  7  9  3
+   / \   / \
+  2   6  4  10
 
 
-// - Write out the procedure to find and remove the maximum element from binary search
-// tree in detail.
-// Vì ta đã tạo một Max heap nên phần tử Root sẽ là phần tử lớn nhất.
-// Từ tail -> lên nốt cha cho đến khi gặp Root
-// Xóa bỏ maximum -> ta sẽ đưa 10 lên thay cho Root
-// Và sử dụng thuật toán chìm 10 xuống và đưa phần tử max nổi lên để trở thành 1 cây heap mới.
+- Write out the procedure to find and remove the maximum element from binary search
+tree in detail.
+Vì ta đã tạo một Max heap nên phần tử Root sẽ là phần tử lớn nhất.
+Từ tail -> lên nốt cha cho đến khi gặp Root
+Xóa bỏ maximum -> ta sẽ đưa 10 lên thay cho Root
+Và sử dụng thuật toán chìm 10 xuống và đưa phần tử max nổi lên để trở thành 1 cây heap mới.
